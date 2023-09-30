@@ -1,0 +1,20 @@
+{
+  "name": "tempbot",
+  "version": "1.0.0",
+  "description": "Bot of discord.gg/temp",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "author": "https://github.com/Azukiov",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "mariadb": "^3.2.1",
+    "path": "^0.12.7",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
